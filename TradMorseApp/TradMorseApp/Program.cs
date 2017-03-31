@@ -8,23 +8,7 @@ namespace TradMorseApp
 {
     public class Program
     {
-        public static Dictionary<char, string> _morseAlphabetDictionary;
-
-        static void Main()
-        {
-            InitializeDictionary();
-
-            Console.WriteLine("Écrivez un mot ou une phrase");
-            string userInput = GetUserInput();
-            Console.WriteLine("En morse cela donne: " + Translate(userInput));
-
-            Console.WriteLine("Appuyez sur une touche pour quitter");
-            Console.ReadLine();
-        }
-
-        public static void InitializeDictionary()
-        {
-            _morseAlphabetDictionary = new Dictionary<char, string>()
+        public static Dictionary<char, string> _morseAlphabetDictionary = new Dictionary<char, string>()
                                    {
                                        {'a', ".-"},
                                        {'b', "-..."},
@@ -63,6 +47,15 @@ namespace TradMorseApp
                                        {'8', "---.."},
                                        {'9', "----."}
                                    };
+
+        static void Main()
+        {
+            Console.WriteLine("Écrivez un mot ou une phrase");
+            string userInput = GetUserInput();
+            Console.WriteLine("En morse cela donne: " + Translate(userInput));
+
+            Console.WriteLine("Appuyez sur une touche pour quitter");
+            Console.ReadLine();
         }
 
         public static string GetUserInput()

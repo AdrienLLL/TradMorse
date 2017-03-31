@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using TradMorseApp;
 
 
 namespace testUnitMorseTraducteur
@@ -11,23 +12,17 @@ namespace testUnitMorseTraducteur
         [TestMethod]
         public void testTraduireLettre()
         {
-            string lettre = TradMorseApp.Program.Translate("a");
+            string lettre = Program.Translate("a");
 
-            Assert.AreEqual(lettre, ".-");
+            Assert.AreEqual(lettre, ".- ");
         }
 
         [TestMethod]
         public void testTraduireMot()
         {
-            string mot = TradMorseApp.Program.Translate("bonjour");
+            string mot = Program.Translate("bonjour");
 
-            Assert.AreEqual(mot, "-... --- -. .--- --- ..- .-.");
+            Assert.AreEqual(mot, "-... --- -. .--- --- ..- .-. ");
         }
-
-
-
-
-
-
     }
 }

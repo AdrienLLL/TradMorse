@@ -4,3 +4,9 @@ C:\Users\Adrien-PC\TradMorse\TradMorseApp\TradMorseApp\bin\Debug\TradMorseApp.pd
 C:\Users\Adrien-PC\TradMorse\TradMorseApp\TradMorseApp\obj\Debug\TradMorseApp.csprojResolveAssemblyReference.cache
 C:\Users\Adrien-PC\TradMorse\TradMorseApp\TradMorseApp\obj\Debug\TradMorseApp.exe
 C:\Users\Adrien-PC\TradMorse\TradMorseApp\TradMorseApp\obj\Debug\TradMorseApp.pdb
+C:\Users\Adrien-PC\Documents\GitHub\TradMorse\TradMorseApp\TradMorseApp\bin\Debug\TradMorseApp.exe.config
+C:\Users\Adrien-PC\Documents\GitHub\TradMorse\TradMorseApp\TradMorseApp\obj\Debug\TradMorseApp.exe
+C:\Users\Adrien-PC\Documents\GitHub\TradMorse\TradMorseApp\TradMorseApp\obj\Debug\TradMorseApp.pdb
+C:\Users\Adrien-PC\Documents\GitHub\TradMorse\TradMorseApp\TradMorseApp\bin\Debug\TradMorseApp.exe
+C:\Users\Adrien-PC\Documents\GitHub\TradMorse\TradMorseApp\TradMorseApp\bin\Debug\TradMorseApp.pdb
+C:\Users\Adrien-PC\Documents\GitHub\TradMorse\TradMorseApp\TradMorseApp\obj\Debug\TradMorseApp.csprojResolveAssemblyReference.cache
